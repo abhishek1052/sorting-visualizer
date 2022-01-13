@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.block{
+    border: 5px solid black;
+    width: 30px;
+    bottom: 0;
+    margin-top: auto;
+    background-color: green;
+    margin-left: 5px;
+    margin-right: 5px;
+}   
+.card{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    box-shadow: 10px 10px 10px rgb(177, 176, 176);
+    width: 1500px;
+    height: 650px;
+    margin: 5px;
+    background-color: black;
+}
+.inputbar{
+    height: 65px;
+    box-shadow: 10px 10px 10px rgb(177, 176, 176);
+    height: 50px;
+    margin: 5px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#input{
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 380px;
+    margin: 50px;
+    font-family:"McLaren", cursive;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 200;
+    font-family:"McLaren", cursive;
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+#button{
+    background-color: rgb(8, 240, 8);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+    font-family:"McLaren", cursive;
+    font-size: 20px;
+    font-weight: 200;
+}
+#button:hover{
+    background-color: rgb(1, 122, 1);
+}
+.algo-button{
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+    font-family:"McLaren", cursive;
+    font-size: 20px;
+    font-weight: 200;
+}
+.slider{
+    margin-left: 0px;
+}
